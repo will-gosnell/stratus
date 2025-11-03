@@ -24,7 +24,7 @@ Words/sentences wrapped inside quotes are called Strings. We'll discuss what exa
 Once you create a variable, you can later get its value by using its name.
 
 ```
-name = "Bob"
+first_name = "Bob"
 print(name)
 ```
 
