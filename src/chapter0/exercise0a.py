@@ -6,7 +6,7 @@ This is a python file called exercise0.py. The .py extension is what tells the c
 The `print` function is used to display text or other output to the screen. Remember, programming languages have their own syntax and rules. In Python, the syntax for the `print` function looks like this below:
 """
 
-print("Hello")
+print("Hello World")
 
 """
 In your terminal, type: python src/chapter0/exercise0a.py
@@ -22,7 +22,9 @@ Follow the rest of the instructions to create several more print statements.
 """
 
 # Print a message that says "Welcome to coding!"
-
+print("Welcome to coding!")
 # Print a message about today's weather:
-
+print("Today is sunny and windy")
 # Print a message about your ideal climate:
+print("I'd love the weather to be about 75 and sunny everyday")
+
