@@ -20,5 +20,3 @@ temperature ="70 degrees"
 
 # Now use all 3 variables to print a custom message about the temperature and weather in your city.
 print("in", city, ", it is", temperature, "and", weather_condition)
-
-git status

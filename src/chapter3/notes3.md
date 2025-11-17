@@ -9,6 +9,10 @@ Just like you learned in Chapter 0 that `print()` is a function, you can create 
 ```python
 def announce_name(name):
     print(name)
+
+
+
+
 ```
 
 Notice how the `print` code is indented. Python relies on indentation to understand what is part of a function.
@@ -41,7 +45,7 @@ Turns out functions can have zero or more parameters. Let's look at some example
 def greet():
     print("Hello!")
 
-def add_two_numbers(a, b):
+def add_two_numbers(a, b, c, ,d ,z):
     print(a + b)
 
 def add_three_numbers(a, b, c):
@@ -58,6 +62,9 @@ def convert_to_celsius(fahrenheit):
     return celsius
 
 temp_celsius = convert_to_celsius(75)
+
+convert_celsius(80)
+
 print("75°F is", temp_celsius, "°C")  # Output: 75°F is 23.888... °C
 ```
 

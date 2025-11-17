@@ -24,16 +24,23 @@ Now let's practice creating your own weather functions!
 
 
 # Create a function called 'show_temperature' that prints a temperature message
+def show_temperature():
+    print("It's 25 degrees celcius outside.")
 
 # Call your function to test it
+show_temperature()
 
 # Create a function called 'show_forecast' that prints tomorrow's expected weather
-
+def show_forecast():
+    print("Tomorrow will be Sunny")
 # Call your show_forecast function
-
+show_forecast()
 # Create a function called 'show_season' that prints what season it is and typical weather
+def show_season():
+    print("It's fall and chilly")
 
 # Call your show_season function
+show_season()
 
 # Create a function called 'weather_advice' that prints advice based on current conditions
 
